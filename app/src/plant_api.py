@@ -1,21 +1,26 @@
 from fastapi import FastAPI, File, UploadFile, HTTPException
 from fastapi.responses import JSONResponse
-from tensorflow.keras.models import load_model
+import tensorflow as tf
 import numpy as np
 from PIL import Image
 import io
 import os
 import json
+import gc
 
 # Caminhos
-MODEL_PATH = os.path.join("app", "model", "plant_disease_prediction_model.h5")
-DATA_PATH = os.path.join("app", "data", "plant_diseases.json")
+DATA_PATH = r"C:\Users\giuli\PycharmProjects\plant-disease-project\app\data\plant_diseases.json"
+MODEL_PATH = r"C:\Users\giuli\PycharmProjects\plant-disease-project\app\model\plant_disease_model.tflite"
+
 
 IMG_SIZE = 224
 
-# Carregar modelo
-print("Carregando modelo...")
-model = load_model(MODEL_PATH)
+# Carregar modelo TFLite
+print("Carregando modelo TFLite...")
+interpreter = tf.lite.Interpreter(model_path=MODEL_PATH)
+interpreter.allocate_tensors()
+input_details = interpreter.get_input_details()
+output_details = interpreter.get_output_details()
 print("Modelo carregado com sucesso!")
 
 # Carregar banco de dados de doenças
@@ -28,16 +33,27 @@ DISEASES_MAP = {item["prediction"]: item for item in DISEASES_DATA}
 # Lista de labels (mantém a ordem usada no treinamento do modelo)
 LABELS = list(DISEASES_MAP.keys())
 
-# Função para previsão
+# Função para previsão usando TFLite
 def predict_disease(image_bytes: bytes) -> str:
     try:
+        # Processar imagem
         img = Image.open(io.BytesIO(image_bytes)).convert("RGB")
         img = img.resize((IMG_SIZE, IMG_SIZE))
-        img_array = np.array(img) / 255.0
+        img_array = np.array(img, dtype=np.float32) / 255.0
         img_array = np.expand_dims(img_array, axis=0)
-        prediction = model.predict(img_array)
+
+        # Rodar predição TFLite
+        interpreter.set_tensor(input_details[0]['index'], img_array)
+        interpreter.invoke()
+        prediction = interpreter.get_tensor(output_details[0]['index'])
         class_index = int(np.argmax(prediction))
+
+        # Limpeza de memória
+        del img_array, img
+        gc.collect()
+
         return LABELS[class_index]
+
     except Exception as e:
         raise HTTPException(status_code=400, detail=f"Erro ao processar imagem: {str(e)}")
 
@@ -73,8 +89,7 @@ async def predict(file: UploadFile = File(...)):
             "severity": "Não classificado"
         }
     else:
-        # 🔥 devolve o objeto inteiro do JSON
+        # Devolve o objeto inteiro do JSON
         response = disease_info
 
     return JSONResponse(content=response)
-
