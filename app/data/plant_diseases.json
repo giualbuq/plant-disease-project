@@ -1,0 +1,268 @@
+[
+  {
+    "prediction": "Apple___Apple_scab",
+    "plant": "Apple",
+    "disease": "Apple scab",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Apple___Black_rot",
+    "plant": "Apple",
+    "disease": "Black rot",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Apple___Cedar_apple_rust",
+    "plant": "Apple",
+    "disease": "Cedar apple rust",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Apple___healthy",
+    "plant": "Apple",
+    "disease": "Healthy",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Blueberry___healthy",
+    "plant": "Blueberry",
+    "disease": "Healthy",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Cherry_(including_sour)___Powdery_mildew",
+    "plant": "Cherry (including sour)",
+    "disease": "Powdery mildew",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Cherry_(including_sour)___healthy",
+    "plant": "Cherry (including sour)",
+    "disease": "Healthy",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+    "plant": "Corn (maize)",
+    "disease": "Cercospora leaf spot / Gray leaf spot",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Corn_(maize)___Common_rust_",
+    "plant": "Corn (maize)",
+    "disease": "Common rust",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Corn_(maize)___Northern_Leaf_Blight",
+    "plant": "Corn (maize)",
+    "disease": "Northern leaf blight",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Corn_(maize)___healthy",
+    "plant": "Corn (maize)",
+    "disease": "Healthy",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Grape___Black_rot",
+    "plant": "Grape",
+    "disease": "Black rot",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Grape___Esca_(Black_Measles)",
+    "plant": "Grape",
+    "disease": "Esca (Black measles)",
+    "description": "oioi",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+    "plant": "Grape",
+    "disease": "Leaf blight (Isariopsis leaf spot)",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Grape___healthy",
+    "plant": "Grape",
+    "disease": "Healthy",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Orange___Haunglongbing_(Citrus_greening)",
+    "plant": "Orange",
+    "disease": "Haunglongbing (Citrus greening)",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Peach___Bacterial_spot",
+    "plant": "Peach",
+    "disease": "Bacterial spot",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Peach___healthy",
+    "plant": "Peach",
+    "disease": "Healthy",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Pepper,_bell___Bacterial_spot",
+    "plant": "Pepper (bell)",
+    "disease": "Bacterial spot",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Pepper,_bell___healthy",
+    "plant": "Pepper (bell)",
+    "disease": "Healthy",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Potato___Early_blight",
+    "plant": "Potato",
+    "disease": "Early blight",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Potato___Late_blight",
+    "plant": "Potato",
+    "disease": "Late blight",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Potato___healthy",
+    "plant": "Potato",
+    "disease": "Healthy",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Raspberry___healthy",
+    "plant": "Raspberry",
+    "disease": "Healthy",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Soybean___healthy",
+    "plant": "Soybean",
+    "disease": "Healthy",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Squash___Powdery_mildew",
+    "plant": "Squash",
+    "disease": "Powdery mildew",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Strawberry___Leaf_scorch",
+    "plant": "Strawberry",
+    "disease": "Leaf scorch",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Strawberry___healthy",
+    "plant": "Strawberry",
+    "disease": "Healthy",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Tomato___Bacterial_spot",
+    "plant": "Tomato",
+    "disease": "Bacterial spot",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Tomato___Early_blight",
+    "plant": "Tomato",
+    "disease": "Early blight",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Tomato___Late_blight",
+    "plant": "Tomato",
+    "disease": "Late blight",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Tomato___Leaf_Mold",
+    "plant": "Tomato",
+    "disease": "Leaf mold",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Tomato___Septoria_leaf_spot",
+    "plant": "Tomato",
+    "disease": "Septoria leaf spot",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Tomato___Spider_mites Two-spotted_spider_mite",
+    "plant": "Tomato",
+    "disease": "Spider mites (Two-spotted spider mite)",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Tomato___Target_Spot",
+    "plant": "Tomato",
+    "disease": "Target spot",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+    "plant": "Tomato",
+    "disease": "Tomato yellow leaf curl virus",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Tomato___Tomato_mosaic_virus",
+    "plant": "Tomato",
+    "disease": "Tomato mosaic virus",
+    "description": "bla",
+    "severity": "bla"
+  },
+  {
+    "prediction": "Tomato___healthy",
+    "plant": "Tomato",
+    "disease": "Healthy",
+    "description": "bla",
+    "severity": "bla"
+  }
+  ]

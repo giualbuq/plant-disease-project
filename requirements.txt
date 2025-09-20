@@ -1,0 +1,10 @@
+fastapi
+pillow
+customtkinter
+tensorflow==2.20.0
+numpy
+pandas
+matplotlib
+opencv-python
+scikit-learn
+uvicorn
