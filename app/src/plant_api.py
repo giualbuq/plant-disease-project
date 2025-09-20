@@ -8,9 +8,9 @@ import os
 import json
 import gc
 
-# Caminhos
-DATA_PATH = r"C:\Users\giuli\PycharmProjects\plant-disease-project\app\data\plant_diseases.json"
-MODEL_PATH = r"C:\Users\giuli\PycharmProjects\plant-disease-project\app\model\plant_disease_model.tflite"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # pasta app
+MODEL_PATH = os.path.join(BASE_DIR, "model", "plant_disease_model.tflite")
+DATA_PATH = os.path.join(BASE_DIR, "data", "plant_diseases.json")
 
 
 IMG_SIZE = 224
