@@ -3,266 +3,775 @@
     "prediction": "Apple___Apple_scab",
     "plant": "Apple",
     "disease": "Apple scab",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Doença fúngica que causa manchas escuras nas folhas e frutos, podendo reduzir a qualidade da produção.",
+    "severity": "Moderada",
+    "symptoms": [
+      "manchas aveludadas escuras nas folhas",
+      "frutos deformados ou rachados"
+    ],
+    "causes": "Fungo Venturia inaequalis",
+    "treatment": [
+      "Aplicação de fungicidas",
+      "Retirada de folhas infectadas",
+      "Podas para melhorar ventilação"
+    ],
+    "prevention": [
+      "Usar variedades resistentes",
+      "Manter o pomar limpo de restos de folhas",
+      "Evitar irrigação por aspersão"
+    ]
   },
   {
     "prediction": "Apple___Black_rot",
     "plant": "Apple",
     "disease": "Black rot",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Doença fúngica que causa podridão nos frutos, cancros nos galhos e manchas nas folhas, afetando a produtividade e longevidade da árvore.",
+    "severity": "Alta",
+    "symptoms": [
+      "manchas circulares marrons nas folhas",
+      "lesões roxas nas bordas das folhas",
+      "frutos escurecidos e enrugados",
+      "cancros nos galhos"
+    ],
+    "causes": "Fungo Botryosphaeria obtusa",
+    "treatment": [
+      "Remover frutos e galhos infectados",
+      "Aplicação de fungicidas adequados",
+      "Podas sanitárias regulares"
+    ],
+    "prevention": [
+      "Manter o pomar limpo",
+      "Usar mudas certificadas",
+      "Monitorar frequentemente durante a estação de crescimento"
+    ]
   },
   {
     "prediction": "Apple___Cedar_apple_rust",
     "plant": "Apple",
     "disease": "Cedar apple rust",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Doença causada por fungo que afeta macieiras e juníperos, produzindo manchas amareladas a alaranjadas nas folhas e podendo comprometer a fotossíntese.",
+    "severity": "Moderada",
+    "symptoms": [
+      "manchas circulares amareladas nas folhas",
+      "pontuações alaranjadas que crescem com o tempo",
+      "quedas prematuras de folhas em infecções severas"
+    ],
+    "causes": "Fungo Gymnosporangium juniperi-virginianae",
+    "treatment": [
+      "Aplicação de fungicidas preventivos",
+      "Remover galhos de cedro/junípero próximos",
+      "Podar partes infectadas"
+    ],
+    "prevention": [
+      "Evitar plantar maçãs próximas a cedros/juníperos",
+      "Usar variedades resistentes",
+      "Monitorar condições úmidas favoráveis à doença"
+    ]
   },
   {
-    "prediction": "Apple___healthy",
+    "prediction": "Apple___Healthy",
     "plant": "Apple",
     "disease": "Healthy",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Planta saudável, sem sinais visíveis de doenças ou pragas.",
+    "severity": "Nenhuma",
+    "symptoms": [],
+    "causes": "Nenhum",
+    "treatment": [],
+    "prevention": [
+      "Manter boas práticas agrícolas",
+      "Garantir nutrição equilibrada",
+      "Monitorar regularmente a saúde da planta"
+    ]
   },
   {
-    "prediction": "Blueberry___healthy",
+    "prediction": "Blueberry___Healthy",
     "plant": "Blueberry",
     "disease": "Healthy",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Planta saudável, sem sintomas de doenças foliares ou de frutos.",
+    "severity": "Nenhuma",
+    "symptoms": [],
+    "causes": "Nenhum",
+    "treatment": [],
+    "prevention": [
+      "Manter irrigação adequada",
+      "Garantir adubação balanceada",
+      "Evitar excesso de umidade nas raízes"
+    ]
   },
   {
     "prediction": "Cherry_(including_sour)___Powdery_mildew",
     "plant": "Cherry (including sour)",
     "disease": "Powdery mildew",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Doença fúngica que provoca um pó branco nas folhas, brotos e frutos, podendo reduzir a qualidade da produção.",
+    "severity": "Moderada",
+    "symptoms": [
+      "Pó branco nas folhas, brotos e frutos",
+      "Folhas deformadas ou enroladas",
+      "Crescimento prejudicado dos brotos"
+    ],
+    "causes": "Fungo Podosphaera spp.",
+    "treatment": [
+      "Aplicação de fungicidas específicos para oídio",
+      "Remoção de folhas e frutos severamente afetados",
+      "Melhorar a circulação de ar entre as plantas"
+    ],
+    "prevention": [
+      "Evitar alta densidade de plantio",
+      "Usar variedades resistentes",
+      "Monitorar regularmente e tratar preventivamente"
+    ]
   },
   {
-    "prediction": "Cherry_(including_sour)___healthy",
+    "prediction": "Cherry_(including_sour)___Healthy",
     "plant": "Cherry (including sour)",
     "disease": "Healthy",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Planta de cerejeira saudável, com folhas e frutos em condições normais.",
+    "severity": "Nenhuma",
+    "symptoms": [],
+    "causes": "Nenhum",
+    "treatment": [],
+    "prevention": [
+      "Realizar podas periódicas",
+      "Manter controle preventivo de pragas",
+      "Garantir irrigação equilibrada"
+    ]
   },
   {
-    "prediction": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+    "prediction": "Corn_(maize)___Healthy",
     "plant": "Corn (maize)",
-    "disease": "Cercospora leaf spot / Gray leaf spot",
-    "description": "bla",
-    "severity": "bla"
+    "disease": "Healthy",
+    "description": "Planta de milho saudável, sem sinais de ferrugem, manchas ou necroses foliares.",
+    "severity": "Nenhuma",
+    "symptoms": [],
+    "causes": "Nenhum",
+    "treatment": [],
+    "prevention": [
+      "Rotação de culturas",
+      "Uso de sementes de qualidade",
+      "Adubação e irrigação adequadas"
+    ]
   },
   {
-    "prediction": "Corn_(maize)___Common_rust_",
+    "prediction": "Corn_(maize)___Common_rust",
     "plant": "Corn (maize)",
     "disease": "Common rust",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Doença fúngica que provoca pequenas pústulas avermelhadas nas folhas, podendo reduzir a fotossíntese e afetar a produtividade.",
+    "severity": "Moderada",
+    "symptoms": [
+      "Pústulas avermelhadas nas folhas",
+      "Folhas amareladas nas áreas infectadas",
+      "Redução do crescimento das plantas"
+    ],
+    "causes": "Fungo Puccinia sorghi",
+    "treatment": [
+      "Aplicação de fungicidas adequados",
+      "Remover plantas severamente infectadas em pequenas áreas",
+      "Manutenção de espaçamento adequado entre plantas"
+    ],
+    "prevention": [
+      "Uso de variedades resistentes",
+      "Rotação de culturas",
+      "Monitoramento constante das lavouras"
+    ]
   },
   {
     "prediction": "Corn_(maize)___Northern_Leaf_Blight",
     "plant": "Corn (maize)",
     "disease": "Northern leaf blight",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Doença fúngica que causa lesões alongadas cinza-esverdeadas nas folhas, podendo comprometer o rendimento do milho se não controlada.",
+    "severity": "Alta",
+    "symptoms": [
+      "Lesões alongadas cinza-esverdeadas nas folhas",
+      "Folhas podem secar e morrer",
+      "Redução da produtividade"
+    ],
+    "causes": "Fungo Exserohilum turcicum",
+    "treatment": [
+      "Aplicação de fungicidas recomendados",
+      "Remoção de restos de cultura infectados",
+      "Manter a lavoura ventilada e espaçada"
+    ],
+    "prevention": [
+      "Uso de híbridos resistentes",
+      "Rotação de culturas",
+      "Monitoramento frequente das lavouras"
+    ]
   },
   {
-    "prediction": "Corn_(maize)___healthy",
+    "prediction": "Corn_(maize)___Healthy",
     "plant": "Corn (maize)",
     "disease": "Healthy",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Planta de milho saudável, sem sinais de doenças foliares ou de frutos.",
+    "severity": "Nenhuma",
+    "symptoms": [],
+    "causes": "Nenhum",
+    "treatment": [],
+    "prevention": [
+      "Rotação de culturas",
+      "Uso de sementes de qualidade",
+      "Adubação e irrigação adequadas",
+      "Monitoramento regular da lavoura"
+    ]
   },
   {
     "prediction": "Grape___Black_rot",
     "plant": "Grape",
     "disease": "Black rot",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Doença fúngica que causa manchas escuras nos frutos e folhas, podendo comprometer a produção e qualidade das uvas.",
+    "severity": "Alta",
+    "symptoms": [
+      "Manchas marrons nas folhas",
+      "Frutos com podridão negra e enrugados",
+      "Galhos com lesões escuras"
+    ],
+    "causes": "Fungo Guignardia bidwellii",
+    "treatment": [
+      "Aplicação de fungicidas específicos",
+      "Remoção de frutos e folhas infectadas",
+      "Podas sanitárias regulares"
+    ],
+    "prevention": [
+      "Uso de variedades resistentes",
+      "Manter o parreiral limpo",
+      "Monitoramento constante das plantas"
+    ]
   },
   {
     "prediction": "Grape___Esca_(Black_Measles)",
     "plant": "Grape",
     "disease": "Esca (Black measles)",
-    "description": "oioi",
-    "severity": "bla"
+    "description": "Doença fúngica crônica que afeta a madeira da videira, provocando manchas escuras nos frutos e deterioração dos ramos, reduzindo a produtividade.",
+    "severity": "Alta",
+    "symptoms": [
+      "Manchas negras ou marrons nos frutos",
+      "Folhas com descoloração e necrose",
+      "Morte gradual de ramos e desfolhamento"
+    ],
+    "causes": "Fungos Phaeomoniella chlamydospora e Phaeoacremonium spp.",
+    "treatment": [
+      "Remoção de ramos infectados",
+      "Tratamento químico na poda",
+      "Evitar ferimentos na madeira"
+    ],
+    "prevention": [
+      "Evitar excesso de umidade",
+      "Sanitização de ferramentas de poda",
+      "Uso de mudas certificadas e saudáveis"
+    ]
   },
   {
     "prediction": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
     "plant": "Grape",
     "disease": "Leaf blight (Isariopsis leaf spot)",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Doença fúngica que provoca pequenas manchas escuras nas folhas, podendo levar à desfolha precoce e reduzir a fotossíntese.",
+    "severity": "Moderada",
+    "symptoms": [
+      "Manchas pequenas e escuras nas folhas",
+      "Folhas amareladas ao redor das manchas",
+      "Queda precoce de folhas em infecções severas"
+    ],
+    "causes": "Fungo Isariopsis spp.",
+    "treatment": [
+      "Aplicação de fungicidas preventivos e curativos",
+      "Remoção de folhas infectadas",
+      "Boa ventilação entre plantas"
+    ],
+    "prevention": [
+      "Espaçamento adequado entre plantas",
+      "Evitar excesso de irrigação por aspersão",
+      "Monitoramento regular das folhas"
+    ]
   },
   {
-    "prediction": "Grape___healthy",
+    "prediction": "Grape___Healthy",
     "plant": "Grape",
     "disease": "Healthy",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Videira saudável, sem presença de manchas, podridões ou sintomas de doenças.",
+    "severity": "Nenhuma",
+    "symptoms": [],
+    "causes": "Nenhum",
+    "treatment": [],
+    "prevention": [
+      "Boa ventilação no parreiral",
+      "Controle de umidade",
+      "Monitoramento frequente da saúde da videira"
+    ]
   },
   {
     "prediction": "Orange___Haunglongbing_(Citrus_greening)",
     "plant": "Orange",
     "disease": "Haunglongbing (Citrus greening)",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Doença bacteriana grave que afeta citros, causando amarelamento das folhas, frutos deformados e redução significativa da produção.",
+    "severity": "Alta",
+    "symptoms": [
+      "Amarelamento assimétrico das folhas",
+      "Frutos pequenos e deformados",
+      "Queda prematura de frutos",
+      "Crescimento reduzido da planta"
+    ],
+    "causes": "Bactérias do gênero Candidatus Liberibacter, transmitidas por psilídeos (insetos vetores)",
+    "treatment": [
+      "Não há cura; remoção de plantas infectadas",
+      "Controle de insetos vetores com inseticidas",
+      "Uso de mudas certificadas livres da doença"
+    ],
+    "prevention": [
+      "Monitoramento constante dos pomares",
+      "Controle rigoroso de vetores",
+      "Plantio de mudas saudáveis e certificadas"
+    ]
   },
   {
     "prediction": "Peach___Bacterial_spot",
     "plant": "Peach",
     "disease": "Bacterial spot",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Doença bacteriana que provoca manchas nas folhas, frutos e ramos do pessegueiro, podendo comprometer a qualidade e o rendimento da produção.",
+    "severity": "Moderada",
+    "symptoms": [
+      "Manchas marrons ou negras nas folhas",
+      "Frutos com lesões escuras e depressões",
+      "Ramos com manchas e necrose"
+    ],
+    "causes": "Bactéria Xanthomonas arboricola pv. pruni",
+    "treatment": [
+      "Aplicação de bactericidas quando permitido",
+      "Remoção de folhas e frutos severamente afetados",
+      "Podas sanitárias para eliminar ramos infectados"
+    ],
+    "prevention": [
+      "Uso de variedades resistentes",
+      "Evitar molhar folhas durante irrigação",
+      "Sanitização de ferramentas de poda",
+      "Monitoramento constante do pomar"
+    ]
   },
   {
-    "prediction": "Peach___healthy",
+    "prediction": "Peach___Healthy",
     "plant": "Peach",
     "disease": "Healthy",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Pessegueiro saudável, sem sinais de doenças nas folhas, frutos ou ramos.",
+    "severity": "Nenhuma",
+    "symptoms": [],
+    "causes": "Nenhum",
+    "treatment": [],
+    "prevention": [
+      "Podas de formação e limpeza",
+      "Manutenção do solo fértil",
+      "Controle preventivo de pragas e fungos"
+    ]
   },
   {
     "prediction": "Pepper,_bell___Bacterial_spot",
     "plant": "Pepper (bell)",
     "disease": "Bacterial spot",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Doença bacteriana que causa manchas nas folhas, frutos e ramos do pimentão, podendo reduzir a qualidade e o rendimento da produção.",
+    "severity": "Moderada",
+    "symptoms": [
+      "Manchas marrons ou negras nas folhas",
+      "Frutos com lesões escuras",
+      "Ramos com necrose localizada"
+    ],
+    "causes": "Bactéria Xanthomonas spp.",
+    "treatment": [
+      "Aplicação de bactericidas quando permitido",
+      "Remoção de folhas e frutos severamente afetados",
+      "Sanitização de ferramentas de cultivo"
+    ],
+    "prevention": [
+      "Uso de variedades resistentes",
+      "Evitar irrigação por aspersão sobre folhas",
+      "Rotação de culturas",
+      "Monitoramento constante do cultivo"
+    ]
   },
   {
-    "prediction": "Pepper,_bell___healthy",
+    "prediction": "Pepper,_bell___Healthy",
     "plant": "Pepper (bell)",
     "disease": "Healthy",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Planta de pimentão saudável, sem sinais de doenças foliares, frutos ou ramos.",
+    "severity": "Nenhuma",
+    "symptoms": [],
+    "causes": "Nenhum",
+    "treatment": [],
+    "prevention": [
+      "Manter práticas agrícolas adequadas",
+      "Garantir irrigação equilibrada",
+      "Monitoramento regular das plantas"
+    ]
   },
   {
     "prediction": "Potato___Early_blight",
     "plant": "Potato",
     "disease": "Early blight",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Doença fúngica que provoca manchas circulares nas folhas, podendo levar à desfolha prematura e reduzir a produtividade da batata.",
+    "severity": "Moderada",
+    "symptoms": [
+      "Manchas marrons com anéis concêntricos nas folhas",
+      "Amarelecimento das folhas afetadas",
+      "Redução do crescimento da planta"
+    ],
+    "causes": "Fungo Alternaria solani",
+    "treatment": [
+      "Aplicação de fungicidas apropriados",
+      "Remoção de folhas severamente infectadas",
+      "Boa ventilação entre plantas e espaçamento adequado"
+    ],
+    "prevention": [
+      "Uso de variedades resistentes",
+      "Rotação de culturas",
+      "Monitoramento contínuo da plantação"
+    ]
   },
   {
     "prediction": "Potato___Late_blight",
     "plant": "Potato",
     "disease": "Late blight",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Doença fúngica grave que causa manchas marrons nas folhas e podridão nos tubérculos, podendo destruir rapidamente a lavoura se não controlada.",
+    "severity": "Alta",
+    "symptoms": [
+      "Manchas escuras e úmidas nas folhas",
+      "Podridão marrom nos tubérculos",
+      "Morte rápida das folhas infectadas"
+    ],
+    "causes": "Fungo Phytophthora infestans",
+    "treatment": [
+      "Aplicação de fungicidas específicos",
+      "Remoção de plantas infectadas",
+      "Evitar acúmulo de água no solo e excesso de irrigação"
+    ],
+    "prevention": [
+      "Uso de variedades resistentes",
+      "Rotação de culturas",
+      "Monitoramento frequente da lavoura"
+    ]
   },
   {
-    "prediction": "Potato___healthy",
+    "prediction": "Potato___Healthy",
     "plant": "Potato",
     "disease": "Healthy",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Planta de batata saudável, sem sinais de doenças nas folhas, tubérculos ou ramos.",
+    "severity": "Nenhuma",
+    "symptoms": [],
+    "causes": "Nenhum",
+    "treatment": [],
+    "prevention": [
+      "Manter boas práticas agrícolas",
+      "Garantir irrigação adequada",
+      "Monitoramento regular da plantação"
+    ]
   },
   {
-    "prediction": "Raspberry___healthy",
+    "prediction": "Raspberry___Healthy",
     "plant": "Raspberry",
     "disease": "Healthy",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Planta de framboesa saudável, sem sintomas de doenças foliares, frutos ou ramos.",
+    "severity": "Nenhuma",
+    "symptoms": [],
+    "causes": "Nenhum",
+    "treatment": [],
+    "prevention": [
+      "Podas regulares",
+      "Irrigação equilibrada",
+      "Controle preventivo de pragas e doenças"
+    ]
   },
   {
-    "prediction": "Soybean___healthy",
+    "prediction": "Soybean___Healthy",
     "plant": "Soybean",
     "disease": "Healthy",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Planta de soja saudável, sem sinais de doenças foliares, de vagens ou de raízes.",
+    "severity": "Nenhuma",
+    "symptoms": [],
+    "causes": "Nenhum",
+    "treatment": [],
+    "prevention": [
+      "Rotação de culturas",
+      "Uso de sementes de qualidade",
+      "Monitoramento regular do cultivo"
+    ]
   },
   {
     "prediction": "Squash___Powdery_mildew",
     "plant": "Squash",
     "disease": "Powdery mildew",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Doença fúngica que provoca um pó branco nas folhas e frutos da abóbora, prejudicando a fotossíntese e o desenvolvimento da planta.",
+    "severity": "Moderada",
+    "symptoms": [
+      "Pó branco nas folhas e frutos",
+      "Folhas deformadas ou enroladas",
+      "Crescimento reduzido da planta"
+    ],
+    "causes": "Fungo Podosphaera xanthii",
+    "treatment": [
+      "Aplicação de fungicidas específicos para oídio",
+      "Remoção de folhas severamente afetadas",
+      "Melhorar a ventilação entre plantas"
+    ],
+    "prevention": [
+      "Evitar plantio muito denso",
+      "Usar variedades resistentes",
+      "Monitorar regularmente e tratar preventivamente"
+    ]
   },
   {
     "prediction": "Strawberry___Leaf_scorch",
     "plant": "Strawberry",
     "disease": "Leaf scorch",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Doença fúngica que causa manchas marrons nas folhas da morangueira, podendo levar à desfolha precoce e redução da fotossíntese.",
+    "severity": "Moderada",
+    "symptoms": [
+      "Manchas marrons nas bordas das folhas",
+      "Folhas secas ou enroladas",
+      "Redução do crescimento da planta"
+    ],
+    "causes": "Fungo Diplocarpon earliana",
+    "treatment": [
+      "Aplicação de fungicidas apropriados",
+      "Remoção de folhas severamente afetadas",
+      "Evitar acúmulo de umidade nas plantas"
+    ],
+    "prevention": [
+      "Evitar plantio muito denso",
+      "Garantir boa circulação de ar",
+      "Monitoramento regular das folhas"
+    ]
   },
   {
-    "prediction": "Strawberry___healthy",
+    "prediction": "Strawberry___Healthy",
     "plant": "Strawberry",
     "disease": "Healthy",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Planta de morango saudável, sem sinais de doenças foliares, frutos ou ramos.",
+    "severity": "Nenhuma",
+    "symptoms": [],
+    "causes": "Nenhum",
+    "treatment": [],
+    "prevention": [
+      "Manter irrigação equilibrada",
+      "Boa circulação de ar entre plantas",
+      "Monitoramento regular da plantação"
+    ]
   },
   {
     "prediction": "Tomato___Bacterial_spot",
     "plant": "Tomato",
     "disease": "Bacterial spot",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Doença bacteriana que causa manchas nas folhas, frutos e ramos do tomateiro, podendo reduzir a qualidade e a produção.",
+    "severity": "Moderada",
+    "symptoms": [
+      "Manchas marrons ou negras nas folhas",
+      "Frutos com lesões escuras",
+      "Necrose em ramos afetados"
+    ],
+    "causes": "Bactéria Xanthomonas spp.",
+    "treatment": [
+      "Aplicação de bactericidas quando permitido",
+      "Remoção de folhas e frutos severamente afetados",
+      "Sanitização de ferramentas de cultivo"
+    ],
+    "prevention": [
+      "Uso de variedades resistentes",
+      "Evitar molhar folhas durante irrigação",
+      "Monitoramento constante da plantação"
+    ]
   },
   {
     "prediction": "Tomato___Early_blight",
     "plant": "Tomato",
     "disease": "Early blight",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Doença fúngica que provoca manchas circulares com anéis concêntricos nas folhas do tomateiro, podendo levar à desfolha precoce e reduzir a produtividade.",
+    "severity": "Moderada",
+    "symptoms": [
+      "Manchas marrons com anéis concêntricos nas folhas",
+      "Folhas amareladas ao redor das manchas",
+      "Redução do crescimento da planta"
+    ],
+    "causes": "Fungo Alternaria solani",
+    "treatment": [
+      "Aplicação de fungicidas apropriados",
+      "Remoção de folhas severamente afetadas",
+      "Boa ventilação e espaçamento entre plantas"
+    ],
+    "prevention": [
+      "Uso de variedades resistentes",
+      "Rotação de culturas",
+      "Monitoramento contínuo da plantação"
+    ]
   },
   {
     "prediction": "Tomato___Late_blight",
     "plant": "Tomato",
     "disease": "Late blight",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Doença fúngica grave que causa manchas escuras nas folhas e podridão nos frutos, podendo destruir rapidamente a plantação se não controlada.",
+    "severity": "Alta",
+    "symptoms": [
+      "Manchas escuras e úmidas nas folhas",
+      "Frutos com podridão marrom ou negra",
+      "Morte rápida das folhas afetadas"
+    ],
+    "causes": "Fungo Phytophthora infestans",
+    "treatment": [
+      "Aplicação de fungicidas específicos",
+      "Remoção de plantas infectadas",
+      "Evitar excesso de umidade no solo e irrigação"
+    ],
+    "prevention": [
+      "Uso de variedades resistentes",
+      "Rotação de culturas",
+      "Monitoramento frequente da plantação"
+    ]
   },
   {
     "prediction": "Tomato___Leaf_Mold",
     "plant": "Tomato",
     "disease": "Leaf mold",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Doença fúngica que provoca manchas verdes-amareladas nas folhas, que evoluem para tons acastanhados, prejudicando a fotossíntese e o crescimento da planta.",
+    "severity": "Moderada",
+    "symptoms": [
+      "Manchas escuras na face inferior das folhas",
+      "Folhas amareladas e deformadas",
+      "Perda parcial da folhagem"
+    ],
+    "causes": "Fungo Passalora fulva",
+    "treatment": [
+      "Aplicação de fungicidas específicos",
+      "Remoção de folhas severamente afetadas",
+      "Manter boa circulação de ar entre plantas"
+    ],
+    "prevention": [
+      "Evitar excesso de umidade",
+      "Manter espaçamento adequado entre plantas",
+      "Uso de variedades resistentes"
+    ]
   },
   {
     "prediction": "Tomato___Septoria_leaf_spot",
     "plant": "Tomato",
     "disease": "Septoria leaf spot",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Doença fúngica que provoca pequenas manchas circulares nas folhas, podendo causar desfolha precoce e redução da produtividade.",
+    "severity": "Moderada",
+    "symptoms": [
+      "Pequenas manchas circulares com centro claro nas folhas",
+      "Folhas amareladas ao redor das manchas",
+      "Queda prematura de folhas em casos severos"
+    ],
+    "causes": "Fungo Septoria lycopersici",
+    "treatment": [
+      "Aplicação de fungicidas preventivos e curativos",
+      "Remoção de folhas infectadas",
+      "Boa ventilação entre plantas"
+    ],
+    "prevention": [
+      "Espaçamento adequado entre plantas",
+      "Rotação de culturas",
+      "Monitoramento regular das folhas"
+    ]
   },
   {
-    "prediction": "Tomato___Spider_mites Two-spotted_spider_mite",
+    "prediction": "Tomato___Spider_mites_Two-spotted_spider_mite",
     "plant": "Tomato",
     "disease": "Spider mites (Two-spotted spider mite)",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Praga aracnídea que suga a seiva das folhas, causando pontos amarelados, queda prematura das folhas e enfraquecimento geral da planta.",
+    "severity": "Moderada",
+    "symptoms": [
+      "Pequenos pontos amarelados nas folhas",
+      "Tecidos foliares secos ou bronzados",
+      "Fios de teia fina sobre folhas e ramos"
+    ],
+    "causes": "Ácaro Tetranychus urticae",
+    "treatment": [
+      "Aplicação de acaricidas recomendados",
+      "Lavagem das folhas com jato de água",
+      "Controle biológico com predadores naturais"
+    ],
+    "prevention": [
+      "Evitar estresse hídrico da planta",
+      "Monitoramento regular das folhas",
+      "Manter boa ventilação na plantação"
+    ]
   },
   {
     "prediction": "Tomato___Target_Spot",
     "plant": "Tomato",
     "disease": "Target spot",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Doença fúngica que provoca manchas circulares com centro claro nas folhas, podendo levar à desfolha e reduzir a produtividade.",
+    "severity": "Moderada",
+    "symptoms": [
+      "Manchas circulares com centro claro e borda escura nas folhas",
+      "Folhas amareladas ao redor das manchas",
+      "Queda prematura de folhas em infecções severas"
+    ],
+    "causes": "Fungo Corynespora cassiicola",
+    "treatment": [
+      "Aplicação de fungicidas apropriados",
+      "Remoção de folhas severamente afetadas",
+      "Manter boa circulação de ar entre plantas"
+    ],
+    "prevention": [
+      "Espaçamento adequado entre plantas",
+      "Rotação de culturas",
+      "Monitoramento regular das folhas"
+    ]
   },
   {
     "prediction": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
     "plant": "Tomato",
     "disease": "Tomato yellow leaf curl virus",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Doença viral transmitida por mosca-branca que causa enrolamento e amarelecimento das folhas, crescimento atrofiado e redução da produção de frutos.",
+    "severity": "Alta",
+    "symptoms": [
+      "Amarelecimento das folhas",
+      "Enrolamento das folhas para cima",
+      "Redução do crescimento da planta",
+      "Diminuição da produção de frutos"
+    ],
+    "causes": "Vírus Tomato yellow leaf curl virus, transmitido por mosca-branca (Bemisia tabaci)",
+    "treatment": [
+      "Não há cura; remoção de plantas infectadas",
+      "Controle de vetores com inseticidas",
+      "Uso de mudas certificadas e saudáveis"
+    ],
+    "prevention": [
+      "Controle rigoroso de mosca-branca",
+      "Uso de variedades resistentes",
+      "Monitoramento constante da plantação"
+    ]
   },
   {
     "prediction": "Tomato___Tomato_mosaic_virus",
     "plant": "Tomato",
     "disease": "Tomato mosaic virus",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Doença viral que causa mosaico, manchas nas folhas e frutos deformados, podendo reduzir significativamente a qualidade e a produção.",
+    "severity": "Moderada",
+    "symptoms": [
+      "Manchas claras e escuras alternadas nas folhas (mosaico)",
+      "Folhas deformadas",
+      "Frutos pequenos e deformados"
+    ],
+    "causes": "Vírus Tomato mosaic virus, transmitido por contato com plantas infectadas e ferramentas contaminadas",
+    "treatment": [
+      "Não há cura; remoção de plantas infectadas",
+      "Sanitização de ferramentas de cultivo",
+      "Evitar contato com plantas infectadas"
+    ],
+    "prevention": [
+      "Uso de variedades resistentes",
+      "Sanitização de ferramentas",
+      "Monitoramento constante da plantação"
+    ]
   },
   {
-    "prediction": "Tomato___healthy",
+    "prediction": "Tomato___Healthy",
     "plant": "Tomato",
     "disease": "Healthy",
-    "description": "bla",
-    "severity": "bla"
+    "description": "Planta de tomate saudável, sem sinais de doenças foliares, frutos ou ramos.",
+    "severity": "Nenhuma",
+    "symptoms": [],
+    "causes": "Nenhum",
+    "treatment": [],
+    "prevention": [
+      "Manter irrigação equilibrada",
+      "Boa circulação de ar entre plantas",
+      "Monitoramento regular da plantação"
+    ]
   }
-  ]
+]
