@@ -45,7 +45,7 @@ pip install -r requirements.txt
 4; **Execute a API:**
 
 ```bash
-uvicorn app.main:app --reload
+uvicorn plant_api:app --reload
 ```
 - A API estará disponível em http://127.0.0.1:8000
 - A documentação interativa do Swagger pode ser acessada em http://127.0.0.1:8000/docs
