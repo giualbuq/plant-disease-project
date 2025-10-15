@@ -1,8 +1,8 @@
 [
   {
     "prediction": "Apple___Apple_scab",
-    "plant": "Apple",
-    "disease": "Apple scab",
+    "plant": "Maça",
+    "disease": "Sarampo-da-maçã",
     "description": "Doença fúngica que causa manchas escuras nas folhas e frutos, podendo reduzir a qualidade da produção.",
     "severity": "Moderada",
     "symptoms": [
@@ -23,8 +23,8 @@
   },
   {
     "prediction": "Apple___Black_rot",
-    "plant": "Apple",
-    "disease": "Black rot",
+    "plant": "Maça",
+    "disease": "Podridão-negra",
     "description": "Doença fúngica que causa podridão nos frutos, cancros nos galhos e manchas nas folhas, afetando a produtividade e longevidade da árvore.",
     "severity": "Alta",
     "symptoms": [
@@ -47,8 +47,8 @@
   },
   {
     "prediction": "Apple___Cedar_apple_rust",
-    "plant": "Apple",
-    "disease": "Cedar apple rust",
+    "plant": "Maça",
+    "disease": "Ferrugem da maçã",
     "description": "Doença causada por fungo que afeta macieiras e juníperos, produzindo manchas amareladas a alaranjadas nas folhas e podendo comprometer a fotossíntese.",
     "severity": "Moderada",
     "symptoms": [
@@ -71,7 +71,7 @@
   {
     "prediction": "Apple___Healthy",
     "plant": "Apple",
-    "disease": "Healthy",
+    "disease": "Saudável",
     "description": "Planta saudável, sem sinais visíveis de doenças ou pragas.",
     "severity": "Nenhuma",
     "symptoms": [],
@@ -85,8 +85,8 @@
   },
   {
     "prediction": "Blueberry___Healthy",
-    "plant": "Blueberry",
-    "disease": "Healthy",
+    "plant": "Mirtilo",
+    "disease": "Saudável",
     "description": "Planta saudável, sem sintomas de doenças foliares ou de frutos.",
     "severity": "Nenhuma",
     "symptoms": [],
@@ -100,8 +100,8 @@
   },
   {
     "prediction": "Cherry_(including_sour)___Powdery_mildew",
-    "plant": "Cherry (including sour)",
-    "disease": "Powdery mildew",
+    "plant": "Cereja",
+    "disease": "Oídio",
     "description": "Doença fúngica que provoca um pó branco nas folhas, brotos e frutos, podendo reduzir a qualidade da produção.",
     "severity": "Moderada",
     "symptoms": [
@@ -123,8 +123,8 @@
   },
   {
     "prediction": "Cherry_(including_sour)___Healthy",
-    "plant": "Cherry (including sour)",
-    "disease": "Healthy",
+    "plant": "Cereja",
+    "disease": "Saudável",
     "description": "Planta de cerejeira saudável, com folhas e frutos em condições normais.",
     "severity": "Nenhuma",
     "symptoms": [],
@@ -138,8 +138,8 @@
   },
   {
     "prediction": "Corn_(maize)___Healthy",
-    "plant": "Corn (maize)",
-    "disease": "Healthy",
+    "plant": "Milho",
+    "disease": "Saudável",
     "description": "Planta de milho saudável, sem sinais de ferrugem, manchas ou necroses foliares.",
     "severity": "Nenhuma",
     "symptoms": [],
@@ -153,8 +153,8 @@
   },
   {
     "prediction": "Corn_(maize)___Common_rust",
-    "plant": "Corn (maize)",
-    "disease": "Common rust",
+    "plant": "Milho",
+    "disease": "Ferrugem-comum",
     "description": "Doença fúngica que provoca pequenas pústulas avermelhadas nas folhas, podendo reduzir a fotossíntese e afetar a produtividade.",
     "severity": "Moderada",
     "symptoms": [
@@ -176,8 +176,8 @@
   },
   {
     "prediction": "Corn_(maize)___Northern_Leaf_Blight",
-    "plant": "Corn (maize)",
-    "disease": "Northern leaf blight",
+    "plant": "Milho",
+    "disease": "Queima-das-folhas-do-norte",
     "description": "Doença fúngica que causa lesões alongadas cinza-esverdeadas nas folhas, podendo comprometer o rendimento do milho se não controlada.",
     "severity": "Alta",
     "symptoms": [
@@ -199,8 +199,8 @@
   },
   {
     "prediction": "Corn_(maize)___Healthy",
-    "plant": "Corn (maize)",
-    "disease": "Healthy",
+    "plant": "Milho",
+    "disease": "Saudável",
     "description": "Planta de milho saudável, sem sinais de doenças foliares ou de frutos.",
     "severity": "Nenhuma",
     "symptoms": [],
@@ -215,8 +215,8 @@
   },
   {
     "prediction": "Grape___Black_rot",
-    "plant": "Grape",
-    "disease": "Black rot",
+    "plant": "Uva",
+    "disease": "Podridão-negra",
     "description": "Doença fúngica que causa manchas escuras nos frutos e folhas, podendo comprometer a produção e qualidade das uvas.",
     "severity": "Alta",
     "symptoms": [
@@ -238,8 +238,8 @@
   },
   {
     "prediction": "Grape___Esca_(Black_Measles)",
-    "plant": "Grape",
-    "disease": "Esca (Black measles)",
+    "plant": "Uva",
+    "disease": "Esca (Measles-negro)",
     "description": "Doença fúngica crônica que afeta a madeira da videira, provocando manchas escuras nos frutos e deterioração dos ramos, reduzindo a produtividade.",
     "severity": "Alta",
     "symptoms": [
@@ -261,8 +261,8 @@
   },
   {
     "prediction": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
-    "plant": "Grape",
-    "disease": "Leaf blight (Isariopsis leaf spot)",
+    "plant": "Uva",
+    "disease": "Queima-das-folhas (Isariopsis)",
     "description": "Doença fúngica que provoca pequenas manchas escuras nas folhas, podendo levar à desfolha precoce e reduzir a fotossíntese.",
     "severity": "Moderada",
     "symptoms": [
@@ -284,8 +284,8 @@
   },
   {
     "prediction": "Grape___Healthy",
-    "plant": "Grape",
-    "disease": "Healthy",
+    "plant": "Uva",
+    "disease": "Saudável",
     "description": "Videira saudável, sem presença de manchas, podridões ou sintomas de doenças.",
     "severity": "Nenhuma",
     "symptoms": [],
@@ -299,8 +299,8 @@
   },
   {
     "prediction": "Orange___Haunglongbing_(Citrus_greening)",
-    "plant": "Orange",
-    "disease": "Haunglongbing (Citrus greening)",
+    "plant": "Laranja",
+    "disease": "Huanglongbing (amarelecimento dos citros)",
     "description": "Doença bacteriana grave que afeta citros, causando amarelamento das folhas, frutos deformados e redução significativa da produção.",
     "severity": "Alta",
     "symptoms": [
@@ -323,8 +323,8 @@
   },
   {
     "prediction": "Peach___Bacterial_spot",
-    "plant": "Peach",
-    "disease": "Bacterial spot",
+    "plant": "Pêssego",
+    "disease": "Mancha-bacteriana",
     "description": "Doença bacteriana que provoca manchas nas folhas, frutos e ramos do pessegueiro, podendo comprometer a qualidade e o rendimento da produção.",
     "severity": "Moderada",
     "symptoms": [
@@ -347,8 +347,8 @@
   },
   {
     "prediction": "Peach___Healthy",
-    "plant": "Peach",
-    "disease": "Healthy",
+    "plant": "Pêssego",
+    "disease": "Saudável",
     "description": "Pessegueiro saudável, sem sinais de doenças nas folhas, frutos ou ramos.",
     "severity": "Nenhuma",
     "symptoms": [],
@@ -362,8 +362,8 @@
   },
   {
     "prediction": "Pepper,_bell___Bacterial_spot",
-    "plant": "Pepper (bell)",
-    "disease": "Bacterial spot",
+    "plant": "Pimentão (sino)",
+    "disease": "Mancha-bacteriana",
     "description": "Doença bacteriana que causa manchas nas folhas, frutos e ramos do pimentão, podendo reduzir a qualidade e o rendimento da produção.",
     "severity": "Moderada",
     "symptoms": [
@@ -386,8 +386,8 @@
   },
   {
     "prediction": "Pepper,_bell___Healthy",
-    "plant": "Pepper (bell)",
-    "disease": "Healthy",
+    "plant": "Pimentão (sino)",
+    "disease": "Saudável",
     "description": "Planta de pimentão saudável, sem sinais de doenças foliares, frutos ou ramos.",
     "severity": "Nenhuma",
     "symptoms": [],
@@ -401,8 +401,8 @@
   },
   {
     "prediction": "Potato___Early_blight",
-    "plant": "Potato",
-    "disease": "Early blight",
+    "plant": "Batata",
+    "disease": "Podridão-precoce",
     "description": "Doença fúngica que provoca manchas circulares nas folhas, podendo levar à desfolha prematura e reduzir a produtividade da batata.",
     "severity": "Moderada",
     "symptoms": [
@@ -424,8 +424,8 @@
   },
   {
     "prediction": "Potato___Late_blight",
-    "plant": "Potato",
-    "disease": "Late blight",
+    "plant": "Batata",
+    "disease": "Podridão-tardia",
     "description": "Doença fúngica grave que causa manchas marrons nas folhas e podridão nos tubérculos, podendo destruir rapidamente a lavoura se não controlada.",
     "severity": "Alta",
     "symptoms": [
@@ -447,8 +447,8 @@
   },
   {
     "prediction": "Potato___Healthy",
-    "plant": "Potato",
-    "disease": "Healthy",
+    "plant": "Batata",
+    "disease": "Saudável",
     "description": "Planta de batata saudável, sem sinais de doenças nas folhas, tubérculos ou ramos.",
     "severity": "Nenhuma",
     "symptoms": [],
@@ -462,8 +462,8 @@
   },
   {
     "prediction": "Raspberry___Healthy",
-    "plant": "Raspberry",
-    "disease": "Healthy",
+    "plant": "Framboesa",
+    "disease": "Saudável",
     "description": "Planta de framboesa saudável, sem sintomas de doenças foliares, frutos ou ramos.",
     "severity": "Nenhuma",
     "symptoms": [],
@@ -477,8 +477,8 @@
   },
   {
     "prediction": "Soybean___Healthy",
-    "plant": "Soybean",
-    "disease": "Healthy",
+    "plant": "Soja",
+    "disease": "Saudável",
     "description": "Planta de soja saudável, sem sinais de doenças foliares, de vagens ou de raízes.",
     "severity": "Nenhuma",
     "symptoms": [],
@@ -492,8 +492,8 @@
   },
   {
     "prediction": "Squash___Powdery_mildew",
-    "plant": "Squash",
-    "disease": "Powdery mildew",
+    "plant": "Abóbora",
+    "disease": "Oídio",
     "description": "Doença fúngica que provoca um pó branco nas folhas e frutos da abóbora, prejudicando a fotossíntese e o desenvolvimento da planta.",
     "severity": "Moderada",
     "symptoms": [
@@ -515,8 +515,8 @@
   },
   {
     "prediction": "Strawberry___Leaf_scorch",
-    "plant": "Strawberry",
-    "disease": "Leaf scorch",
+    "plant": "Morango",
+    "disease": "Queima-das-folhas",
     "description": "Doença fúngica que causa manchas marrons nas folhas da morangueira, podendo levar à desfolha precoce e redução da fotossíntese.",
     "severity": "Moderada",
     "symptoms": [
@@ -538,8 +538,8 @@
   },
   {
     "prediction": "Strawberry___Healthy",
-    "plant": "Strawberry",
-    "disease": "Healthy",
+    "plant": "Morango",
+    "disease": "Saudável",
     "description": "Planta de morango saudável, sem sinais de doenças foliares, frutos ou ramos.",
     "severity": "Nenhuma",
     "symptoms": [],
@@ -553,8 +553,8 @@
   },
   {
     "prediction": "Tomato___Bacterial_spot",
-    "plant": "Tomato",
-    "disease": "Bacterial spot",
+    "plant": "Tomate",
+    "disease": "Mancha-bacteriana",
     "description": "Doença bacteriana que causa manchas nas folhas, frutos e ramos do tomateiro, podendo reduzir a qualidade e a produção.",
     "severity": "Moderada",
     "symptoms": [
@@ -576,8 +576,8 @@
   },
   {
     "prediction": "Tomato___Early_blight",
-    "plant": "Tomato",
-    "disease": "Early blight",
+    "plant": "Tomate",
+    "disease": "Podridão-precoce",
     "description": "Doença fúngica que provoca manchas circulares com anéis concêntricos nas folhas do tomateiro, podendo levar à desfolha precoce e reduzir a produtividade.",
     "severity": "Moderada",
     "symptoms": [
@@ -599,8 +599,8 @@
   },
   {
     "prediction": "Tomato___Late_blight",
-    "plant": "Tomato",
-    "disease": "Late blight",
+    "plant": "Tomate",
+    "disease": "Podridão-tardia",
     "description": "Doença fúngica grave que causa manchas escuras nas folhas e podridão nos frutos, podendo destruir rapidamente a plantação se não controlada.",
     "severity": "Alta",
     "symptoms": [
@@ -622,8 +622,8 @@
   },
   {
     "prediction": "Tomato___Leaf_Mold",
-    "plant": "Tomato",
-    "disease": "Leaf mold",
+    "plant": "Tomate",
+    "disease": "Míldio",
     "description": "Doença fúngica que provoca manchas verdes-amareladas nas folhas, que evoluem para tons acastanhados, prejudicando a fotossíntese e o crescimento da planta.",
     "severity": "Moderada",
     "symptoms": [
@@ -645,8 +645,8 @@
   },
   {
     "prediction": "Tomato___Septoria_leaf_spot",
-    "plant": "Tomato",
-    "disease": "Septoria leaf spot",
+    "plant": "Tomate",
+    "disease": "Mancha-de-Septoria",
     "description": "Doença fúngica que provoca pequenas manchas circulares nas folhas, podendo causar desfolha precoce e redução da produtividade.",
     "severity": "Moderada",
     "symptoms": [
@@ -668,8 +668,8 @@
   },
   {
     "prediction": "Tomato___Spider_mites_Two-spotted_spider_mite",
-    "plant": "Tomato",
-    "disease": "Spider mites (Two-spotted spider mite)",
+    "plant": "Tomate",
+    "disease": "Ácaros-aracnídeos (Ácaro-ferrugem-de-duas-manchas)",
     "description": "Praga aracnídea que suga a seiva das folhas, causando pontos amarelados, queda prematura das folhas e enfraquecimento geral da planta.",
     "severity": "Moderada",
     "symptoms": [
@@ -691,8 +691,8 @@
   },
   {
     "prediction": "Tomato___Target_Spot",
-    "plant": "Tomato",
-    "disease": "Target spot",
+    "plant": "Tomate",
+    "disease": "Mancha-alvo",
     "description": "Doença fúngica que provoca manchas circulares com centro claro nas folhas, podendo levar à desfolha e reduzir a produtividade.",
     "severity": "Moderada",
     "symptoms": [
@@ -714,8 +714,8 @@
   },
   {
     "prediction": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
-    "plant": "Tomato",
-    "disease": "Tomato yellow leaf curl virus",
+    "plant": "Tomate",
+    "disease": "Vírus-do-enrolamento-amarelo-do-tomate",
     "description": "Doença viral transmitida por mosca-branca que causa enrolamento e amarelecimento das folhas, crescimento atrofiado e redução da produção de frutos.",
     "severity": "Alta",
     "symptoms": [
@@ -738,8 +738,8 @@
   },
   {
     "prediction": "Tomato___Tomato_mosaic_virus",
-    "plant": "Tomato",
-    "disease": "Tomato mosaic virus",
+    "plant": "Tomate",
+    "disease": "Vírus-do-mosaico-do-tomate",
     "description": "Doença viral que causa mosaico, manchas nas folhas e frutos deformados, podendo reduzir significativamente a qualidade e a produção.",
     "severity": "Moderada",
     "symptoms": [
@@ -761,8 +761,8 @@
   },
   {
     "prediction": "Tomato___Healthy",
-    "plant": "Tomato",
-    "disease": "Healthy",
+    "plant": "Tomate",
+    "disease": "Saudável",
     "description": "Planta de tomate saudável, sem sinais de doenças foliares, frutos ou ramos.",
     "severity": "Nenhuma",
     "symptoms": [],
